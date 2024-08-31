@@ -9,11 +9,8 @@ Colaboradores(as): Leonardo José Oliveira Ibiapina, Myllena Cristiane Ribeiro N
 
 - [Introdução](#introdução)
 - [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
 - [Uso](#uso)
-- [Histórias de Usuário](#histórias-de-usuário)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+
 
 ## Introdução
 
@@ -26,6 +23,6 @@ Alumni é uma ferramenta desenvolvida para ajudar estudantes a gerenciar de mane
 - **Registro de Notas e Progresso Acadêmico:** Registre suas notas e acompanhe seu progresso ao longo do semestre.
 - **Personalização de Idioma:** Mude o idioma da interface da plataforma para atender suas preferências linguísticas.
 
-## Acesso
+## Uso
 
 Coming soon...
