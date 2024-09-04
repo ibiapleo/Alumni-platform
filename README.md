@@ -19,5 +19,5 @@ Colaboradores(as): Leonardo José Oliveira Ibiapina, Myllena Cristiane Ribeiro N
 - **Personalização de Idioma:** Mude o idioma da interface da plataforma para atender suas preferências linguísticas.
 
 ## Jijra
-![alt text]([/imgs/jira.png])
+![alt text](/imgs/jira.png)
 
