@@ -22,14 +22,14 @@ Colaboradores(as): Leonardo José Oliveira Ibiapina, Myllena Cristiane Ribeiro N
 
 Board com backlog e items para sprint
 
-!(/imgs/jira.png)
+![](/imgs/jira.png)
 
 ## Protótipos
 
 - Cadastro - Jira e Figma
 
 ![Fazer Cadastro](/imgs/Fazer%20Cadastro.png)
-![Fazer Cadastro](/imgs/Fazer%20adastro%20-%20Figma.png)
+![Fazer Cadastro](/imgs/Fazer%20Cadastro%20-%20Figma.png)
 
 - Login - Jira e Figma
 
