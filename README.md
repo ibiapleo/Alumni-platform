@@ -18,6 +18,35 @@ Colaboradores(as): Leonardo José Oliveira Ibiapina, Myllena Cristiane Ribeiro N
 - **Registro de Notas e Progresso Acadêmico:** Registre suas notas e acompanhe seu progresso ao longo do semestre.
 - **Personalização de Idioma:** Mude o idioma da interface da plataforma para atender suas preferências linguísticas.
 
-## Jijra
-![alt text](/imgs/jira.png)
+## JIRA
 
+Board com backlog e items para sprint
+
+[imagem do backlog]
+
+## Protótipos
+
+- Cadastro - Jira e Figma
+
+!(/imgs/Fazer Cadastro.png)
+!(/imgs/Fazer Cadastro - Figma.png)
+
+- Login - Jira e Figma
+
+!(/imgs/Fazer Login.png)
+!(/imgs/Fazer Login - figma.png)
+
+- Editar dados do usuário - Jira e Figma
+
+!(/imgs/Editar Dados.png)
+!(/imgs/Editar Dados - Figma.png)
+
+- Organização de Tarefas - Jira e Figma
+
+!(/imgs/Organizar Tarefas.png)
+!(/imgs/Organizar Tarefas - Figma.png)
+
+- Registro de Notas - Jira e Figma
+
+!(/imgs/Registrar notas.png)
+!(/imgs/Registrar notas - Figma.png)
