@@ -28,25 +28,25 @@ Board com backlog e items para sprint
 
 - Cadastro - Jira e Figma
 
-!(/imgs/Fazer Cadastro.png)
-!(/imgs/Fazer Cadastro - Figma.png)
+![Fazer Cadastro](/imgs/Fazer Cadastro.png)
+![Fazer Cadastro](/imgs/Fazer Cadastro - Figma.png)
 
 - Login - Jira e Figma
 
-!(/imgs/Fazer Login.png)
-!(/imgs/Fazer Login - figma.png)
+![Fazer Login](/imgs/Fazer Login.png)
+![Fazer Login](/imgs/Fazer Login - figma.png)
 
 - Editar dados do usuário - Jira e Figma
 
-!(/imgs/Editar Dados.png)
-!(/imgs/Editar Dados - Figma.png)
+![Editar Dado](/imgs/Editar Dados.png)
+![Editar Dado](/imgs/Editar Dados - Figma.png)
 
 - Organização de Tarefas - Jira e Figma
 
-!(/imgs/Organizar Tarefas.png)
-!(/imgs/Organizar Tarefas - Figma.png)
+![Organizar Tarefas](/imgs/Organizar Tarefas.png)
+![Organizar Tarefas](/imgs/Organizar Tarefas - Figma.png)
 
 - Registro de Notas - Jira e Figma
 
-!(/imgs/Registrar notas.png)
-!(/imgs/Registrar notas - Figma.png)
+![Registrar notas](/imgs/Registrar notas.png)
+![Registrar notas](/imgs/Registrar notas - Figma.png)
