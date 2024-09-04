@@ -22,31 +22,31 @@ Colaboradores(as): Leonardo José Oliveira Ibiapina, Myllena Cristiane Ribeiro N
 
 Board com backlog e items para sprint
 
-[imagem do backlog]
+!(/imgs/jira.png)
 
 ## Protótipos
 
 - Cadastro - Jira e Figma
 
-![Fazer Cadastro](/imgs/Fazer Cadastro.png)
-![Fazer Cadastro](/imgs/Fazer Cadastro - Figma.png)
+![Fazer Cadastro](/imgs/Fazer%20Cadastro.png)
+![Fazer Cadastro](/imgs/Fazer%20adastro%20-%20Figma.png)
 
 - Login - Jira e Figma
 
-![Fazer Login](/imgs/Fazer Login.png)
-![Fazer Login](/imgs/Fazer Login - figma.png)
+![Fazer Login](/imgs/Fazer%20Login.png)
+![Fazer Login](/imgs/Fazer%20Login%20-%20figma.png)
 
 - Editar dados do usuário - Jira e Figma
 
-![Editar Dado](/imgs/Editar Dados.png)
-![Editar Dado](/imgs/Editar Dados - Figma.png)
+![Editar Dado](/imgs/Editar%20Dados.png)
+![Editar Dado](/imgs/Editar%20Dados%20-%20Figma.png)
 
 - Organização de Tarefas - Jira e Figma
 
-![Organizar Tarefas](/imgs/Organizar Tarefas.png)
-![Organizar Tarefas](/imgs/Organizar Tarefas - Figma.png)
+![Organizar Tarefas](/imgs/Organizar%20Tarefas.png)
+![Organizar Tarefas](/imgs/Organizar%20Tarefas%20-%20Figma.png)
 
 - Registro de Notas - Jira e Figma
 
-![Registrar notas](/imgs/Registrar notas.png)
-![Registrar notas](/imgs/Registrar notas - Figma.png)
+![Registrar notas](/imgs/Registrar%20notas.png)
+![Registrar notas](/imgs/Registrar%20notas%20-%20Figma.png)
