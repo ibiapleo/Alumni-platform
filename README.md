@@ -18,6 +18,6 @@ Colaboradores(as): Leonardo José Oliveira Ibiapina, Myllena Cristiane Ribeiro N
 - **Registro de Notas e Progresso Acadêmico:** Registre suas notas e acompanhe seu progresso ao longo do semestre.
 - **Personalização de Idioma:** Mude o idioma da interface da plataforma para atender suas preferências linguísticas.
 
-## Uso
+## Jijra
+![alt text]([https://photos.app.goo.gl/WjVe1NcmKD2xaJyKA])
 
-Coming soon...
