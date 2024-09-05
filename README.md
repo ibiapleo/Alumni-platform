@@ -53,7 +53,4 @@ Board com backlog e items para sprint
 
 - ScreenCast da plataforma:
 
-<video width="600" controls>
-  <source src="imgs/Video.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
+[aqui](imgs/Vídeo.mp4)
