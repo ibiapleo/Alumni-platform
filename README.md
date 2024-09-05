@@ -50,3 +50,10 @@ Board com backlog e items para sprint
 
 ![Registrar notas](/imgs/Registrar%20notas.png)
 ![Registrar notas](/imgs/Registrar%20notas%20-%20Figma.png)
+
+- ScreenCast da plataforma:
+
+<video width="600" controls>
+  <source src="imgs/Video.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
