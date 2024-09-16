@@ -3,14 +3,14 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 class RegistroForm(UserCreationForm):
-    email = forms.EmailField(required=True)
     first_name = forms.CharField(max_length=30, required=True, label="Nome")
     last_name = forms.CharField(max_length=30, required=True, label="Sobrenome")
+    email = forms.EmailField(max_length=254, required=True, label='Email válido')
     instituicao = forms.CharField(max_length=100, required=False, label="Instituição de Ensino")
 
     class Meta:
         model = User
-        fields = ['username', 'first_name', 'last_name', 'instituicao', 'email', 'password1', 'password2']
+        fields = ['first_name', 'last_name', 'instituicao', 'email', 'password1', 'password2']
 
     def save(self, commit=True):
         user = super(RegistroForm, self).save(commit=False)
