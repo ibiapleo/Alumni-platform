@@ -12,13 +12,19 @@ class RegistroForm(UserCreationForm):
         model = User
         fields = ['first_name', 'last_name', 'instituicao', 'email', 'password1', 'password2']
 
+    def clean_password2(self):
+        password1 = self.cleaned_data.get("password1")
+        password2 = self.cleaned_data.get("password2")
+        if password1 and password2 and password1 != password2:
+            raise forms.ValidationError("As senhas não coincidem")
+        return password2
+
     def save(self, commit=True):
         user = super(RegistroForm, self).save(commit=False)
         user.email = self.cleaned_data['email']
         user.first_name = self.cleaned_data['first_name']
         user.last_name = self.cleaned_data['last_name']
-        user.profile.instituicao = self.cleaned_data['instituicao']
+        user.instituicao = self.cleaned_data['instituicao']
         if commit:
             user.save()
-            user.profile.save()
         return user
