@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .forms import RegistroForm
+from .forms import RegisterForm
 from django.core.mail import send_mail
 from django.utils.crypto import get_random_string
 from django.contrib import messages
@@ -8,14 +8,14 @@ import json
 
 def register_user(request):
     if request.method == 'POST':
-        form = RegistroForm(request.POST)
+        form = RegisterForm(request.POST)
         if form.is_valid():
             user = form.save(commit=False)
             user.username = form.cleaned_data['email']  
             user.save()
             return redirect('login') 
     else:
-        form = RegistroForm()
+        form = RegisterForm()
     return render(request, 'register/registro.html', {'form': form})
 
 def send_verification_code(request, user_email):
