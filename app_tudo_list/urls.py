@@ -20,6 +20,5 @@ from django.shortcuts import redirect
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tarefas/', include('tarefas.urls')),
     path('registrar/', include('register.urls')), 
 ]

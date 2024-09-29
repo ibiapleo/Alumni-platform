@@ -13,12 +13,20 @@ def register_user(request):
             user = form.save(commit=False)
             user.username = form.cleaned_data['email']  
             user.save()
-            return redirect('login') 
+            request.session['user_email'] = user.email
+            return redirect('enviar_codigo')
+        else:
+            print(form.errors)
     else:
         form = RegisterForm()
     return render(request, 'register/registro.html', {'form': form})
 
-def send_verification_code(request, user_email):
+def send_verification_code(request):
+    user_email = request.session.get('user_email', None)  
+    if not user_email:
+        messages.error(request, 'Endereço de e-mail não encontrado.')
+        return redirect('registrar')
+    
     code = get_random_string(length=6, allowed_chars='0123456789')
     
     request.session['verification_code'] = code
@@ -34,10 +42,10 @@ def send_verification_code(request, user_email):
     return redirect('verificacao_de_codigo')
 
 def confirm_code(request):
+    user_email = request.session.get('user_email', None) 
     if request.method == 'POST':
         code_entered = ''.join(request.POST.getlist('code'))
         code_sent = request.session.get('verification_code')
-        data = json.loads(request.body)
         
         if code_entered == code_sent:
             messages.success(request, 'E-mail verificado com sucesso!')
@@ -45,8 +53,7 @@ def confirm_code(request):
         else:
             messages.error(request, 'Código inválido. Tente novamente.')
             return JsonResponse({'success': False})
-      
     
-    return render(request, 'register/verificacao_de_codigo.html')
+    return render(request, 'register/verificacao_de_codigo.html', {'user_email': user_email})
 
 
