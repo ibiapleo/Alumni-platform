@@ -6,6 +6,23 @@ from django.contrib import messages
 from django.http import JsonResponse
 import json
 
+
+def index(request):
+    if request.method == 'POST':
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            user = form.save(commit=False)
+            user.username = form.cleaned_data['email']  
+            user.save()
+            request.session['user_email'] = user.email
+            return redirect('enviar_codigo')
+        else:
+            print(form.errors)
+    else:
+        form = RegisterForm()
+    return render(request, 'register/registro.html', {'form': form})
+
+
 def register_user(request):
     if request.method == 'POST':
         form = RegisterForm(request.POST)

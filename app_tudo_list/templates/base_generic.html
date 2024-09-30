@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}TudoList{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>TudoList navbar menu</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="{% url 'register:index' %}">Cadastre-se</a></li>
+          <li><a href="{% url 'historico:index' %}">Historico de Notas
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="container">
+          {% if messages %}
+            <ul class="messages">
+              {% for message in messages %}
+                <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          {% block content %}{% endblock %}</main> 
+        </div>
+    <footer>
+      <p>&copy; 2024 TudoList</p>
+    </footer>
+  </body>
+</html>
