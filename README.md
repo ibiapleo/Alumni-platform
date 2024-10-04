@@ -55,3 +55,33 @@ Board com backlog e items para sprint
 - ScreenCast da plataforma:
 
 [aqui](imgs/Vídeo.mp4)
+
+### 💻 Como rodar o projeto na sua máquina:
+
+O que você deve fazer ao entrar no projeto pela primeira vez:
+
+> pip install virtualenv (caso não tenha o virtualenv instalado)
+
+1- Criação do ambiente virtual:
+
+> py -m venv .venv ou python -m venv .venv
+
+2- Ativação do amb. virtual:
+
+> .\.venv\Scripts\activate
+
+3- Instalação do django:
+
+> pip install django
+
+3.1 -  Se não foram criadas as migrações dos seus models execute:
+
+> python manage.py makemigrations
+
+3.2 - Se sim execute:
+
+> python manage.py migrate
+
+4- Para rodar o servidor:
+
+> python manage.py runserver <br> http://127.0.0.1:8000/
